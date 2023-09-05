@@ -18,4 +18,7 @@ https://tianchi.aliyun.com/competition/entrance/231609/introduction
 
 ## 算法说明
 
-这里在该赛题的数据集和问题描述的背景下，采用了一种元启发式算法，通过局部搜索为主要策略的算法，实现了航班恢复。
+这里在该赛题的数据集和问题描述的背景下，采用了一种元启发式算法，通过局部搜索为主要策略的算法，实现了航班恢复。参考算法说明文档 [doc/algorithm_desc.md](doc/algorithm_desc.md)
+
+## 效果
+
