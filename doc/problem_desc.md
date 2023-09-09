@@ -1,10 +1,40 @@
-# 问题背景
+# 厦门航空航班恢复智能规划数据集
+
+此处数据集来自天池大赛公开，链接为 https://tianchi.aliyun.com/dataset/1078
+
+## 描述
+
+该数据集来自智慧航空AI大赛：https://tianchi.aliyun.com/competition/entrance/231609/information
+
+## 数据列表
+
+| 数据名称                      | 上传日期   | 大小        | 下载             |
+| ----------------------------- | ---------- | ----------- | ---------------- |
+| XMAE_data.xlsx                | 2018-07-13 | 539.32KB    | 请参考上述原链接 |
+| XMAEvaluation.jar             | 2018-07-13 | 11.58MB     | 请参考上述原链接 |
+| XMAEvaluation_source_code.zip | 2018-07-13 | 2.71GB      | 请参考上述原链接 |
+| jar使用说明.txt               | 2018-07-13 | 192.00Bytes | 请参考上述原链接 |
+
+其中的jar使用说明的内容如下：
+
+```bash
+使用方式:  
+java -jar XMAEvaluation.jar 比赛数据文件路径 结果文件路径
+使用例子:  
+java -jar XMAEvaluation.jar data/厦航大赛数据20170814.xlsx data/baseline_result_2.csv
+```
+
+
+
+---
+
+
+
+# 厦门航空航班恢复课题
 
 此处复制自天池大赛赛题说明，链接如下：
 
 https://tianchi.aliyun.com/competition/entrance/231609/introduction
-
-# 厦门航空航班恢复课题
 
 ## 1. 课题背景
 
@@ -365,3 +395,4 @@ csv文件（逗号分割），文件名为选手昵称+下划线+目标函数值
 （包括使用说明和测试文档）。
 
 每次提交时至少要有程序输出结果，最后一次提交时需要提交源代码和技术文档。
+
